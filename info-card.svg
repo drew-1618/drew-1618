@@ -24,50 +24,50 @@
   </text>
   <text x="25" y="75" class="terminal" opacity="0">
     <tspan class="key">OS</tspan>
-    <tspan class="separator">Layout: </tspan>
+    <tspan class="separator">: </tspan>
     <tspan class="val">Windows, WSL2 Linux, MacOS</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.35s" fill="freeze" />
     <animate attributeName="y" from="80" to="75" dur="0.2s" begin="0.35s" fill="freeze" />
   </text>
   <text x="25" y="99" class="terminal" opacity="0">
     <tspan class="key">Uptime</tspan>
-    <tspan class="separator">Layout: </tspan>
+    <tspan class="separator">: </tspan>
     <tspan class="val">Senior Year (Expected Grad: Dec 2026)</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.43s" fill="freeze" />
     <animate attributeName="y" from="104" to="99" dur="0.2s" begin="0.43s" fill="freeze" />
   </text>
   <text x="25" y="123" class="terminal" opacity="0">
     <tspan class="key">Shell</tspan>
-    <tspan class="separator">Layout: </tspan>
-    <tspan class="val">bash / zsh / Git Bash / Command Prompt</tspan>
+    <tspan class="separator">: </tspan>
+    <tspan class="val">bash / zsh / Git Bash / CMD</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.51s" fill="freeze" />
     <animate attributeName="y" from="128" to="123" dur="0.2s" begin="0.51s" fill="freeze" />
   </text>
   <text x="25" y="147" class="terminal" opacity="0">
     <tspan class="key">Major</tspan>
-    <tspan class="separator">Layout: </tspan>
+    <tspan class="separator">: </tspan>
     <tspan class="val">Computer Science (Math Minor)</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.59s" fill="freeze" />
     <animate attributeName="y" from="152" to="147" dur="0.2s" begin="0.59s" fill="freeze" />
   </text>
   <text x="25" y="171" class="terminal" opacity="0">
     <tspan class="key">Stack</tspan>
-    <tspan class="separator">Layout: </tspan>
-    <tspan class="val">Python, JavaScript, Node.js, Express, SQL, C++</tspan>
+    <tspan class="separator">: </tspan>
+    <tspan class="val">Python, JS, Node.js, Express, SQL, C++</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.67s" fill="freeze" />
     <animate attributeName="y" from="176" to="171" dur="0.2s" begin="0.67s" fill="freeze" />
   </text>
   <text x="25" y="195" class="terminal" opacity="0">
     <tspan class="key">Current</tspan>
-    <tspan class="separator">Layout: </tspan>
-    <tspan class="val">Backend Lead & Solutions Engineering Co-Op</tspan>
+    <tspan class="separator">: </tspan>
+    <tspan class="val">Backend Lead &amp; Solutions Eng Co-Op</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.75s" fill="freeze" />
     <animate attributeName="y" from="200" to="195" dur="0.2s" begin="0.75s" fill="freeze" />
   </text>
   <text x="25" y="219" class="terminal" opacity="0">
     <tspan class="key">Focus</tspan>
-    <tspan class="separator">Layout: </tspan>
-    <tspan class="val">Full Stack Web Development, AI Tooling, Data Science</tspan>
+    <tspan class="separator">: </tspan>
+    <tspan class="val">Full Stack, AI Tooling, Data Science</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.83s" fill="freeze" />
     <animate attributeName="y" from="224" to="219" dur="0.2s" begin="0.83s" fill="freeze" />
   </text>

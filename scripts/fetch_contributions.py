@@ -32,22 +32,24 @@ def fetch_contributions(username="drew-1618"):
     
     for day in days:
         date = day.get('data-date')
-        level = day.get('data-level', '0') # 0 (none) to 4 (brightest green)
+        level = day.get('data-level', '0')
         
-        # Pull text description (e.g., "5 contributions on May 12, 2026") to parse count
-        # If no contributions, text says "No contributions on..."
-        desc = day.get('id')
+        # New robust attribute parsing for counts
         count = 0
-        if desc:
-            # Look for an associated tool-tip or screen-reader text inside the page structure
-            sr_text = soup.find('tool-tip', for_=desc)
-            if sr_text:
-                text_content = sr_text.get_text().strip().lower()
-                if "contribution" in text_content and not text_content.startswith("no"):
-                    try:
-                        count = int(text_content.split()[0].replace(',', ''))
-                    except (ValueError, IndexError):
-                        count = 0
+        desc = day.get_text().strip().lower() # Check text inside the element if present
+        
+        # If text isn't directly inside the <td>, look at its data attributes
+        # GitHub often uses data-count or embedded structural text strings
+        if not desc and day.get('id'):
+            tool_tip = soup.find('tool-tip', for_=day.get('id'))
+            if tool_tip:
+                desc = tool_tip.get_text().strip().lower()
+                
+        if desc and "contribution" in desc and not desc.startswith("no"):
+            try:
+                count = int(desc.split()[0].replace(',', ''))
+            except (ValueError, IndexError):
+                count = 0
 
         if date:
             total_contributions += count
@@ -56,7 +58,7 @@ def fetch_contributions(username="drew-1618"):
                 "count": count,
                 "level": int(level)
             })
-            
+    
     # Package into clean JSON payload format
     output_payload = {
         "username": username,

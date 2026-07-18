@@ -12,11 +12,11 @@ def generate_info_card(output_path="info-card.svg"):
     stats = [
         ("OS", "Windows, WSL2 Linux, MacOS"),
         ("Uptime", "Senior Year (Expected Grad: Dec 2026)"),
-        ("Shell", "bash / zsh / Git Bash / Command Prompt"),
+        ("Shell", "bash / zsh / Git Bash / CMD"),
         ("Major", "Computer Science (Math Minor)"),
-        ("Stack", "Python, JavaScript, Node.js, Express, SQL, C++"),
-        ("Current", "Backend Lead and Solutions Engineering Co-Op"),
-        ("Focus", "Full Stack Web Development, AI Tooling, Data Science")
+        ("Stack", "Python, JS, Node.js, Express, SQL, C++"),
+        ("Current", "Backend Lead &amp; Solutions Eng Co-Op"),
+        ("Focus", "Full Stack, AI Tooling, Data Science")
     ]
     
     svg_lines = [
@@ -32,11 +32,10 @@ def generate_info_card(output_path="info-card.svg"):
         '      .separator { fill: #8b949e; }',
         '    </style>',
         '  </defs>',
-        f'  <rect width="100%" height="100%" fill="#0d1117" rx="6" />' # Matching dark window canvas
+        f'  <rect width="100%" height="100%" fill="#0d1117" rx="6" />'
     ]
     
     # 1. Add the fake shell prompt at the very top line
-    # e.g., andrew@github ~ $ neofetch
     start_y = 35
     line_spacing = 24
     
@@ -49,7 +48,6 @@ def generate_info_card(output_path="info-card.svg"):
     svg_lines.append('  </text>')
     
     # 2. Add the clean underline divider block
-    # andrew----------------github
     divider_y = start_y + 16
     divider_text = "-" * (len(username) + len(hostname) + 1)
     svg_lines.append(f'  <text x="25" y="{divider_y}" class="terminal" fill="#8b949e" opacity="0">')
@@ -62,15 +60,13 @@ def generate_info_card(output_path="info-card.svg"):
     
     for idx, (key, value) in enumerate(stats):
         current_y = content_start_y + (idx * line_spacing)
-        # Stagger line-by-line animations right after the header elements settle
         delay = 0.35 + (idx * 0.08)
         
         svg_lines.append(f'  <text x="25" y="{current_y}" class="terminal" opacity="0">')
         svg_lines.append(f'    <tspan class="key">{key}</tspan>')
-        svg_lines.append(f'    <tspan class="separator">Layout: </tspan>') # Replicates the standard neofetch spaces
+        svg_lines.append(f'    <tspan class="separator">: </tspan>') 
         svg_lines.append(f'    <tspan class="val">{value}</tspan>')
         
-        # Staggered slide and fade-in animations via CSS-SMIL properties
         svg_lines.append(f'    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="{delay:.2f}s" fill="freeze" />')
         svg_lines.append(f'    <animate attributeName="y" from="{current_y + 5}" to="{current_y}" dur="0.2s" begin="{delay:.2f}s" fill="freeze" />')
         svg_lines.append('  </text>')
