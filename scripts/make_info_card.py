@@ -15,7 +15,7 @@ def generate_info_card(output_path="info-card.svg"):
         ("Shell", "bash / zsh / Git Bash / Command Prompt"),
         ("Major", "Computer Science (Math Minor)"),
         ("Stack", "Python, JavaScript, Node.js, Express, SQL, C++"),
-        ("Current", "Backend Lead & Solutions Engineering Co-Op"),
+        ("Current", "Backend Lead and Solutions Engineering Co-Op"),
         ("Focus", "Full Stack Web Development, AI Tooling, Data Science")
     ]
     
