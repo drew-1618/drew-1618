@@ -70,19 +70,6 @@ def generate_info_card(output_path="info-card.svg"):
         svg_lines.append(f'    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="{delay:.2f}s" fill="freeze" />')
         svg_lines.append(f'    <animate attributeName="y" from="{current_y + 5}" to="{current_y}" dur="0.2s" begin="{delay:.2f}s" fill="freeze" />')
         svg_lines.append('  </text>')
-        
-    # 4. Add a tiny classic color block strip at the absolute bottom
-    color_blocks_y = content_start_y + (len(stats) * line_spacing) + 12
-    colors = ["#161b22", "#ff7b72", "#39d353", "#d29922", "#58a6ff", "#bc8cff", "#3080f4", "#c9d1d9"]
-    
-    svg_lines.append(f'  <g transform="translate(25, {color_blocks_y})">')
-    for idx, color in enumerate(colors):
-        x_offset = idx * 20
-        block_delay = 0.4 + (len(stats) * 0.08) + (idx * 0.03)
-        svg_lines.append(f'    <rect x="{x_offset}" width="18" height="12" fill="{color}" opacity="0">')
-        svg_lines.append(f'      <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="{block_delay:.2f}s" fill="freeze" />')
-        svg_lines.append('    </rect>')
-    svg_lines.append('  </g>')
 
     svg_lines.append('</svg>')
     
