@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 533" width="720" height="533">
+  <defs>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&amp;display=swap");
+      .ascii-text { font-family: "Fira Code", monospace; font-size: 12px; fill: #a6acb9; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#0d1117" />
+  <text x="10" y="13" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.00s" fill="freeze" />
+  </text>
+  <text x="10" y="26" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.04s" fill="freeze" />
+  </text>
+  <text x="10" y="39" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.08s" fill="freeze" />
+  </text>
+  <text x="10" y="52" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.12s" fill="freeze" />
+  </text>
+  <text x="10" y="65" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.16s" fill="freeze" />
+  </text>
+  <text x="10" y="78" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.20s" fill="freeze" />
+  </text>
+  <text x="10" y="91" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.24s" fill="freeze" />
+  </text>
+  <text x="10" y="104" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.28s" fill="freeze" />
+  </text>
+  <text x="10" y="117" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.32s" fill="freeze" />
+  </text>
+  <text x="10" y="130" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%s@%%s#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.36s" fill="freeze" />
+  </text>
+  <text x="10" y="143" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%s*#*=--+cs#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.40s" fill="freeze" />
+  </text>
+  <text x="10" y="156" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%##ssc***+*c+*+-`.`-c%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.44s" fill="freeze" />
+  </text>
+  <text x="10" y="169" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%s**+-`.```--::``-=-`..-s%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.48s" fill="freeze" />
+  </text>
+  <text x="10" y="182" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%++*-.....:+c*+-:`..`..  .-s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.52s" fill="freeze" />
+  </text>
+  <text x="10" y="195" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*--:````=c##%##sc*+-`. .  .`s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.56s" fill="freeze" />
+  </text>
+  <text x="10" y="208" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=`....-c#%%#####sss*=-.   .`c@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.60s" fill="freeze" />
+  </text>
+  <text x="10" y="221" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#-...:s####ss####sc*+=:   .s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.64s" fill="freeze" />
+  </text>
+  <text x="10" y="234" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c-.`*#####sss##ssc++=-. ..*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.68s" fill="freeze" />
+  </text>
+  <text x="10" y="247" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*:-=**++==+cssc=--==--=- .*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.72s" fill="freeze" />
+  </text>
+  <text x="10" y="260" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c`=:-:`...`-c+-   ....:. .c%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.76s" fill="freeze" />
+  </text>
+  <text x="10" y="273" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=`--:`.  `*%s+... ...-..`#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.80s" fill="freeze" />
+  </text>
+  <text x="10" y="286" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c-+:-::`:=#%#c-:`.`-=+:-+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.84s" fill="freeze" />
+  </text>
+  <text x="10" y="299" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s*ss*---:*s#s*=:-===++-:s@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.88s" fill="freeze" />
+  </text>
+  <text x="10" y="312" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%ssss+-:-=+==:``:-=+++=+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.92s" fill="freeze" />
+  </text>
+  <text x="10" y="325" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@%%%%@@@@@@@%#sc#@@@@@@@@@%ssssc:`-+*=:``::`====-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.96s" fill="freeze" />
+  </text>
+  <text x="10" y="338" class="ascii-text" opacity="0">
+    @@@@@@@@@%%##s*s###%%%#sc++%@@@@%%@@%##cccc-:`=++++=:`:-=-:-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.00s" fill="freeze" />
+  </text>
+  <text x="10" y="351" class="ascii-text" opacity="0">
+    @@@@@@@@%##sc*s#scs#sc*+*#%@%@%%##%%%#%%c+*+=+``::``.::--:`*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.04s" fill="freeze" />
+  </text>
+  <text x="10" y="364" class="ascii-text" opacity="0">
+    @@@@@@@@##s*csc++++==+s%%@%%%%%%#ssccs%%%*=cc##+-=+---:::--:=*#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.08s" fill="freeze" />
+  </text>
+  <text x="10" y="377" class="ascii-text" opacity="0">
+    @@@@@@@%sc*ss*--==---=+***css###sccss#%%s*=*c##sc*+=--::-=+*-. `*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.12s" fill="freeze" />
+  </text>
+  <text x="10" y="390" class="ascii-text" opacity="0">
+    @@@@@%csc+sc=*#s+======+++++==+*c**c**c=:--*cs#c*=====:`-===--+-.*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.16s" fill="freeze" />
+  </text>
+  <text x="10" y="403" class="ascii-text" opacity="0">
+    @@@@%+sscs+-c#ss*===--====-+::-+=-=-+-`:`.=*#csss+**c+:----:-:-*:`#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.20s" fill="freeze" />
+  </text>
+  <text x="10" y="416" class="ascii-text" opacity="0">
+    @@@@%+s+*+-+*+--:.`.``=----:::::::`-:.``:*+=ss++--:=::----::::`..`c%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.24s" fill="freeze" />
+  </text>
+  <text x="10" y="429" class="ascii-text" opacity="0">
+    @@@@%+-=====---`   .`:::::-`::`-`:`:.`:+cc=:=#s++===-----::`     .`=#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.28s" fill="freeze" />
+  </text>
+  <text x="10" y="442" class="ascii-text" opacity="0">
+    @@@@@%+. ..          `.````:````...`.-++c+-``sc++++==--::.      ` `:=cccc#%@@@@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.32s" fill="freeze" />
+  </text>
+  <text x="10" y="455" class="ascii-text" opacity="0">
+    @@@@@@@#+-`.               .       .`==*-`.`:*s*cc*+=-:.        :-=+=-:`..`=c%@@@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.36s" fill="freeze" />
+  </text>
+  <text x="10" y="468" class="ascii-text" opacity="0">
+    @@@@@@@@@@@%#sc+=-`.````..          `-=:-:`::+#s%%#*-.      +=:==::-=--:::::`:c%@@@@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.40s" fill="freeze" />
+  </text>
+  <text x="10" y="481" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@%%%#c+-:..`:-:--::`-:cssc+`       :ccs=`---::---------=c#%@@@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.44s" fill="freeze" />
+  </text>
+  <text x="10" y="494" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%-:---:-:`:``````` .`:-:-*s=`==-`--:--=--------+#%@@@@@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.48s" fill="freeze" />
+  </text>
+  <text x="10" y="507" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-----::--:``.`:-:```..`=s=`::-.-::-----------:::=s%%%@@@@@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.52s" fill="freeze" />
+  </text>
+  <text x="10" y="520" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s:----:``----=-:..`:-:``c+=`:-`:-.-:`-==----------:=*cs#%%@@@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.56s" fill="freeze" />
+  </text>
+  <text x="10" y="533" class="ascii-text" opacity="0">
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%*------:```:::---:`..:--*=+``-.-`::`-----------===--:::---*#@@@@@
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.60s" fill="freeze" />
+  </text>
+</svg>
