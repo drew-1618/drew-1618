@@ -1,6 +1,6 @@
 {
   "username": "drew-1618",
-  "total_past_year": 558,
+  "total_past_year": 559,
   "days": [
     {
       "date": "2025-08-10",
@@ -1059,8 +1059,8 @@
     },
     {
       "date": "2026-08-12",
-      "count": 0,
-      "level": 0
+      "count": 1,
+      "level": 1
     },
     {
       "date": "2025-08-14",
@@ -1321,6 +1321,11 @@
       "date": "2026-08-06",
       "count": 1,
       "level": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 0,
+      "level": 0
     },
     {
       "date": "2025-08-15",
